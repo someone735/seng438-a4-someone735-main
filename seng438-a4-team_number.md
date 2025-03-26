@@ -14,6 +14,11 @@
 
 
 # Analysis of 10 Mutants of the Range class 
+line 302 for method expandToInclude
+1. negated conditional → KILLED
+2. removed conditional - replaced equality check with false → KILLED
+3. removed conditional - replaced equality check with true → KILLED
+4. not equal to equal → KILLED
 
 # Report all the statistics and the mutation score for each test class
 
