@@ -1,0 +1,1714 @@
+{
+  "id": "6d41e05e-be29-4004-93bd-4b77e052edcf",
+  "version": "2.0",
+  "name": "Gap-Test-SENG438",
+  "url": "https://www.gapcanada.ca",
+  "tests": [{
+    "id": "c71adbd6-137e-4407-83dc-c1de369f581c",
+    "name": "Login-Invalid&Valid-email",
+    "commands": [{
+      "id": "fcc81f9b-19a7-4f9c-bd37-00c9ff2432e2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ec09214-1470-4897-8f86-e63d3c48810f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1078x1025",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ea8a487-21ca-487d-9106-7298ef14eec2",
+      "comment": "",
+      "command": "click",
+      "target": "id=sitewide-account-button-greeting",
+      "targets": [
+        ["id=sitewide-account-button-greeting", "id"],
+        ["css=#sitewide-account-button-greeting", "css:finder"],
+        ["xpath=//div[@id='sitewide-account-button-greeting']", "xpath:attributes"],
+        ["xpath=//div[@id='MyAccountContainer']/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "daa7a117-4aa2-41bb-8949-348297a5cb39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-w86pe2",
+      "targets": [
+        ["css=.sitewide-w86pe2", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//div[@id='MyAccountContainer']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://secure-www.gapcanada.ca/my-account/sign-in')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a829beb4-393c-45d4-b152-42eca645360d",
+      "comment": "",
+      "command": "type",
+      "target": "id=verify-email-input",
+      "targets": [
+        ["id=verify-email-input", "id"],
+        ["name=email", "name"],
+        ["css=#verify-email-input", "css:finder"],
+        ["xpath=//input[@id='verify-email-input']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div/div[3]/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iunscaswdnz@waada.com"
+    }, {
+      "id": "8d39d046-b5cb-425d-be78-395f5f8683d0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=verify-email-input",
+      "targets": [
+        ["id=verify-email-input", "id"],
+        ["name=email", "name"],
+        ["css=#verify-email-input", "css:finder"],
+        ["xpath=//input[@id='verify-email-input']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div/div[3]/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c369d18c-65af-4f13-a835-d090bbbcce93",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-accentColor-dark",
+      "targets": [
+        ["css=.cb-accentColor-dark", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Use another email address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7f52453-d7e6-450b-88cf-a1508cf4cec7",
+      "comment": "",
+      "command": "click",
+      "target": "id=verify-email-input",
+      "targets": [
+        ["id=verify-email-input", "id"],
+        ["name=email", "name"],
+        ["css=#verify-email-input", "css:finder"],
+        ["xpath=//input[@id='verify-email-input']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div/div[3]/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6fbb330-bc14-4c93-9151-7005dcf0ea5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-accentColor-dark",
+      "targets": [
+        ["css=.cb-accentColor-dark", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Use another email address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec28f41b-8ef5-4664-aff0-a654439b46fb",
+      "comment": "",
+      "command": "type",
+      "target": "id=verify-email-input",
+      "targets": [
+        ["id=verify-email-input", "id"],
+        ["name=email", "name"],
+        ["css=#verify-email-input", "css:finder"],
+        ["xpath=//input[@id='verify-email-input']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div/div[3]/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "dopekidlemon@gmail.com"
+    }, {
+      "id": "9844ac28-5b63-4738-b03c-26e6d2ef51f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-cb-coreColor-black",
+      "targets": [
+        ["css=.bg-cb-coreColor-black", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div/div[3]/form/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c0f1739-8ac6-4dae-8c13-a3213321d440",
+      "comment": "",
+      "command": "click",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["name=password", "name"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div/div[3]/form/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dc7e867-0c9e-46ba-90f8-80fb79047033",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["name=password", "name"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div/div[3]/form/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "SENG438Ass$"
+    }, {
+      "id": "d18f99d0-c0ef-41a1-ba74-483327b537c2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password-input",
+      "targets": [
+        ["id=password-input", "id"],
+        ["name=password", "name"],
+        ["css=#password-input", "css:finder"],
+        ["xpath=//input[@id='password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div/div[3]/form/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0350a35e-35b2-4264-8249-59007d2e9539",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-cb-coreColor-black",
+      "targets": [
+        ["css=.bg-cb-coreColor-black", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='main-content']/div/div/div/div[3]/form/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d61f27d-2d4f-41cb-8555-1da2d34fddd2",
+      "comment": "",
+      "command": "click",
+      "target": "id=sitewide-account-button-greeting",
+      "targets": [
+        ["id=sitewide-account-button-greeting", "id"],
+        ["css=#sitewide-account-button-greeting", "css:finder"],
+        ["xpath=//div[@id='sitewide-account-button-greeting']", "xpath:attributes"],
+        ["xpath=//div[@id='MyAccountContainer']/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed661852-793b-4f6c-bfd8-fefceee86caa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign Out",
+      "targets": [
+        ["linkText=Sign Out", "linkText"],
+        ["css=.sitewide-jd6ezu > .sitewide-y1fa5c", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Out')]", "xpath:link"],
+        ["xpath=//div[@id='MyAccountContainer']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://secure-www.gapcanada.ca/my-account/sign-out')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "18b8b397-d172-40b4-b5ed-161a4197b599",
+    "name": "SearchProduct",
+    "commands": [{
+      "id": "dd72356b-f1f5-4241-8fd9-7281586de3b8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77711788-f146-41e5-8b01-8c8f215b147f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x1200",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1626a6b9-8e68-49a8-a9c7-7f9a62eecd35",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18e61413-a116-46fb-9b93-5eef3cb41ff2",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "NULLLLLLLLLLLLLLLLLLLLLLLLL"
+    }, {
+      "id": "5bbc584a-62ec-48ef-93b8-9493f9b19192",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "83bfa365-1ec2-4315-97ee-42279584e82e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3f55918-5ecf-49f5-97d5-5d188d5fe0d1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,241)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e68b156-efcb-477e-9eef-2d7870855cb8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,823)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8d55f4a-7d79-4be2-ba89-3a5eb7d69593",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1958)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5d49fd1-a735-4d6e-8d1b-46df6dbeb419",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2516)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d27de18e-8739-433c-aeb3-b43b3dc3d36e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2372)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7fd2a91-cd00-4c30-bb28-5011ec39d002",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2925230e-cdb5-4661-bb81-8f8392ca352a",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Leather Gloves"
+    }, {
+      "id": "e0640930-c335-4679-bed7-03f3ecfe12f9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "056b21c8-68a2-43a4-a9c4-f9da9534e2cf",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09831fc5-6453-4670-9099-0cb29a65db6e",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Blue Jeans"
+    }, {
+      "id": "a466700c-4988-4968-8992-ed9680d6833a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "67c89e17-3931-4244-ae29-7e8e3c7a4104",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.sitewide-1p7evf2:nth-child(1) .sitewide-fb30fm",
+      "targets": [
+        ["css=.sitewide-1p7evf2:nth-child(1) .sitewide-fb30fm", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div[3]/section/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": "Mid Rise '90s Loose Jeans"
+    }]
+  }, {
+    "id": "2c349539-76f1-4dfd-944d-a5be12628cfc",
+    "name": "Add Product to Cart",
+    "commands": [{
+      "id": "c1625b54-7a5d-45a3-bd34-181020552d56",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5a319ef-4b98-4a9e-abe4-0d693be17462",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1060x1025",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f16166cf-b920-428b-a2b7-531769d9f3eb",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "984149ce-2c1c-4e60-a675-adcdca0889be",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Jersey V-Neck T-shirt"
+    }, {
+      "id": "ec2a3ebe-42b8-4297-8461-7e742027321f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e502add8-aa38-43de-a979-718810710e75",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Baby & Toddler",
+      "targets": [
+        ["linkText=Baby & Toddler", "linkText"],
+        ["css=.topNavLink:nth-child(6) .sitewide-7bf6mf", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby & Toddler')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=1137869&mlink=39813,30012485,Megnav_Baby&clink=30012485&nav=meganav%3ABaby%20%26%20Toddler%3A%3A')]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby & Toddler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65cde343-9ca1-490b-af38-112e6e2c0f67",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Baby & Toddler",
+      "targets": [
+        ["linkText=Baby & Toddler", "linkText"],
+        ["css=.sitewide-874v1p", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby & Toddler')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=1137869&mlink=39813,30012485,Megnav_Baby&clink=30012485&nav=meganav%3ABaby%20%26%20Toddler%3A%3A')]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby & Toddler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6cd50f1-e63d-4863-82fd-fc838fabb4de",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > #\\34 40768033",
+      "targets": [
+        ["css=a > #\\34 40768033", "css:finder"],
+        ["xpath=//img[@alt='Jersey V-Neck T-Shirt']", "xpath:img"],
+        ["xpath=//img[@id='440768033']", "xpath:attributes"],
+        ["xpath=//div[@id='440768033']/a/img", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb99293f-2b4b-45b8-8598-3884b20af0b4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.brick__product-image-wrapper:nth-child(1) img",
+      "targets": [
+        ["css=.brick__product-image-wrapper:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Image number 1 showing, Jersey V-Neck T-Shirt']", "xpath:img"],
+        ["xpath=//div[@id='product']/div/div/div[3]/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28a6d05b-8735-4f9f-aad0-098bc6e17830",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.brick__product-image-wrapper:nth-child(1) img",
+      "targets": [
+        ["css=.brick__product-image-wrapper:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Image number 1 showing, Jersey V-Neck T-Shirt']", "xpath:img"],
+        ["xpath=//div[@id='product']/div/div/div[3]/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa58bff0-1abe-43e5-9cc5-3840be1c664e",
+      "comment": "",
+      "command": "click",
+      "target": "id=buybox-color-swatch--heather-grey",
+      "targets": [
+        ["id=buybox-color-swatch--heather-grey", "id"],
+        ["name=color-radio", "name"],
+        ["css=#buybox-color-swatch--heather-grey", "css:finder"],
+        ["xpath=//input[@id='buybox-color-swatch--heather-grey']", "xpath:attributes"],
+        ["xpath=//div[@id='buy-box']/section/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ec7a61e-6bd1-40e3-83ae-631b1cf248f2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=buybox-color-swatch--heather-grey",
+      "targets": [
+        ["id=buybox-color-swatch--heather-grey", "id"],
+        ["name=color-radio", "name"],
+        ["css=#buybox-color-swatch--heather-grey", "css:finder"],
+        ["xpath=//input[@id='buybox-color-swatch--heather-grey']", "xpath:attributes"],
+        ["xpath=//div[@id='buy-box']/section/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c00c94ea-6fb3-47e7-a360-f24c2632e51e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=buybox-color-swatch--heather-grey",
+      "targets": [
+        ["id=buybox-color-swatch--heather-grey", "id"],
+        ["name=color-radio", "name"],
+        ["css=#buybox-color-swatch--heather-grey", "css:finder"],
+        ["xpath=//input[@id='buybox-color-swatch--heather-grey']", "xpath:attributes"],
+        ["xpath=//div[@id='buy-box']/section/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95e2af07-0def-43be-a31e-3673dc7a509e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-dimension__group-label-container",
+      "targets": [
+        ["css=.pdp-dimension__group-label-container", "css:finder"],
+        ["xpath=//div[@id='buy-box']/section/div[3]/div", "xpath:idRelative"],
+        ["xpath=//section/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5f24566-7eaa-490c-afe7-bfcde9b774b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=variant-1-sizeDimension1-XS",
+      "targets": [
+        ["id=variant-1-sizeDimension1-XS", "id"],
+        ["name=buy-box-Size", "name"],
+        ["css=#variant-1-sizeDimension1-XS", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-XS']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63b69d11-718a-4b5f-ac8a-20b04f8e9575",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=variant-1-sizeDimension1-XS",
+      "targets": [
+        ["id=variant-1-sizeDimension1-XS", "id"],
+        ["name=buy-box-Size", "name"],
+        ["css=#variant-1-sizeDimension1-XS", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-XS']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0827cb9-199f-47d3-8476-e7b1b75f0135",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=variant-1-sizeDimension1-XS",
+      "targets": [
+        ["id=variant-1-sizeDimension1-XS", "id"],
+        ["name=buy-box-Size", "name"],
+        ["css=#variant-1-sizeDimension1-XS", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-XS']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21658a41-a0f2-4e1c-9cf7-dd57e7ab40e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=AddToBag_add-to-bag__button",
+      "targets": [
+        ["id=AddToBag_add-to-bag__button", "id"],
+        ["css=#AddToBag_add-to-bag__button", "css:finder"],
+        ["xpath=//button[@id='AddToBag_add-to-bag__button']", "xpath:attributes"],
+        ["xpath=//div[@id='AddToBagWithPrice']/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d0ca38b-50b7-4f1e-b1d7-766673cac16e",
+      "comment": "",
+      "command": "click",
+      "target": "id=keepShoppingButton",
+      "targets": [
+        ["id=keepShoppingButton", "id"],
+        ["css=#keepShoppingButton", "css:finder"],
+        ["xpath=//button[@id='keepShoppingButton']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWindow']/div[4]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e467c7d-601a-4ef9-970a-c4c3fe5c4ca6",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6498336b-ca10-41ae-9308-4dfc20dbb073",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6c2da1-06ec-4add-8fb2-e636ca19c6bc",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Peak Polo T-Shirt"
+    }, {
+      "id": "2dee33c1-3be8-42ba-aeda-dc879159ae31",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "948aa884-dee7-4bb4-8f32-1773c3a5073e",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > #\\37 45011003",
+      "targets": [
+        ["css=a > #\\37 45011003", "css:finder"],
+        ["xpath=//img[@alt='Red Hot Chili Peppers Graphic T-Shirt']", "xpath:img"],
+        ["xpath=//img[@id='745011003']", "xpath:attributes"],
+        ["xpath=//div[@id='745011003']/a/img", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b17c790-c4b5-40da-ac5e-b71f15a872e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=variant-1-sizeDimension1-XS",
+      "targets": [
+        ["id=variant-1-sizeDimension1-XS", "id"],
+        ["name=buy-box-Size", "name"],
+        ["css=#variant-1-sizeDimension1-XS", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-XS']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c53312a7-ae72-469c-8cf8-348a6af93ea6",
+      "comment": "",
+      "command": "click",
+      "target": "id=AddToBag_add-to-bag__button",
+      "targets": [
+        ["id=AddToBag_add-to-bag__button", "id"],
+        ["css=#AddToBag_add-to-bag__button", "css:finder"],
+        ["xpath=//button[@id='AddToBag_add-to-bag__button']", "xpath:attributes"],
+        ["xpath=//div[@id='AddToBagWithPrice']/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3009c264-4a85-4852-bd0d-6d914bfef260",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=AddToBag_add-to-bag__button",
+      "targets": [
+        ["id=AddToBag_add-to-bag__button", "id"],
+        ["css=#AddToBag_add-to-bag__button", "css:finder"],
+        ["xpath=//button[@id='AddToBag_add-to-bag__button']", "xpath:attributes"],
+        ["xpath=//div[@id='AddToBagWithPrice']/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b118587d-04f1-44c6-a62f-0b55a759da50",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=AddToBag_add-to-bag__button",
+      "targets": [
+        ["id=AddToBag_add-to-bag__button", "id"],
+        ["css=#AddToBag_add-to-bag__button", "css:finder"],
+        ["xpath=//button[@id='AddToBag_add-to-bag__button']", "xpath:attributes"],
+        ["xpath=//div[@id='AddToBagWithPrice']/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc91a2ad-60ed-43f3-a291-781a86ce0851",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkoutButton",
+      "targets": [
+        ["id=checkoutButton", "id"],
+        ["css=#checkoutButton", "css:finder"],
+        ["xpath=//button[@id='checkoutButton']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWindow']/div[4]/div[3]/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "58b5adf1-55f7-4a09-9bd8-439420673d2a",
+    "name": "Remove Product from Cart",
+    "commands": [{
+      "id": "5f76919e-e567-4b7f-b6be-d54e0768e8ba",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5141ed2f-0776-48a7-81ee-caf92fc5c358",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x1200",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bfe1c83-7e4a-43b2-bfba-e23817d1ec50",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a86ab8e-87d8-4377-a6a9-951fa47aea62",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd698536-0d7f-4c8e-a301-0df6307e4c19",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "601ef70a-68f1-4228-b133-98dd0431ec4f",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Crepe Flutter-Sleeve Mini Dress"
+    }, {
+      "id": "531398fe-9efc-4f7f-81b2-689850633d7f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "20c522ff-e31c-4145-ab9d-99078ef5e97c",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > #\\37 77291013",
+      "targets": [
+        ["css=a > #\\37 77291013", "css:finder"],
+        ["xpath=//img[@alt='Crepe Flutter-Sleeve Mini Dress']", "xpath:img"],
+        ["xpath=//img[@id='777291013']", "xpath:attributes"],
+        ["xpath=//div[@id='777291013']/a/img", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6b1f55d-8e09-4980-8a6e-fdd01382f3ba",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.brick__product-image-wrapper:nth-child(1) img",
+      "targets": [
+        ["css=.brick__product-image-wrapper:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Image number 1 showing, Crepe Flutter-Sleeve Mini Dress']", "xpath:img"],
+        ["xpath=//div[@id='product']/div/div/div[3]/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fad49f9-3284-4e54-a104-a4b3aad7db9f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,158)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8c1a3a8-1a96-40b1-a0dc-b1f53b0b52a3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.brick__product-image-wrapper:nth-child(1) img",
+      "targets": [
+        ["css=.brick__product-image-wrapper:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Image number 1 showing, Crepe Flutter-Sleeve Mini Dress']", "xpath:img"],
+        ["xpath=//div[@id='product']/div/div/div[3]/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dfc964c-b076-448e-9647-61a0ecb1593b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.brick__product-image-wrapper:nth-child(2) img",
+      "targets": [
+        ["css=.brick__product-image-wrapper:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Image number 2 showing, Crepe Flutter-Sleeve Mini Dress']", "xpath:img"],
+        ["xpath=//div[@id='product']/div/div/div[3]/div[2]/div/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bc9a146-3c33-4443-950d-91b66feaaf36",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.brick__product-image-wrapper:nth-child(2) img",
+      "targets": [
+        ["css=.brick__product-image-wrapper:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Image number 2 showing, Crepe Flutter-Sleeve Mini Dress']", "xpath:img"],
+        ["xpath=//div[@id='product']/div/div/div[3]/div[2]/div/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85065e7a-b15e-4bdc-8caa-a3b746a4ad91",
+      "comment": "",
+      "command": "click",
+      "target": "id=buy-box-2",
+      "targets": [
+        ["id=buy-box-2", "id"],
+        ["css=#buy-box-2", "css:finder"],
+        ["xpath=//input[@id='buy-box-2']", "xpath:attributes"],
+        ["xpath=//div[@id='buy-box']/section/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "775de417-7ab7-4700-9c14-984a0a2976ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=variant-2-sizeDimension1-S",
+      "targets": [
+        ["id=variant-2-sizeDimension1-S", "id"],
+        ["name=buy-box-Size", "name"],
+        ["css=#variant-2-sizeDimension1-S", "css:finder"],
+        ["xpath=//input[@id='variant-2-sizeDimension1-S']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-2-sizeDimension1-dimensions-group']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a105ed24-8e12-4116-b79a-a3dddf560491",
+      "comment": "",
+      "command": "click",
+      "target": "id=AddToBag_add-to-bag__button",
+      "targets": [
+        ["id=AddToBag_add-to-bag__button", "id"],
+        ["css=#AddToBag_add-to-bag__button", "css:finder"],
+        ["xpath=//button[@id='AddToBag_add-to-bag__button']", "xpath:attributes"],
+        ["xpath=//div[@id='AddToBagWithPrice']/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63e123de-4321-45dc-a68a-f9b4f212c302",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkoutButton",
+      "targets": [
+        ["id=checkoutButton", "id"],
+        ["css=#checkoutButton", "css:finder"],
+        ["xpath=//button[@id='checkoutButton']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWindow']/div[4]/div[3]/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2e06a55-6a3a-4b98-8fae-2e886caf5608",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slick-slide:nth-child(3) .sitewide-79elbk > .sitewide-0",
+      "targets": [
+        ["css=.slick-slide:nth-child(3) .sitewide-79elbk > .sitewide-0", "css:finder"],
+        ["xpath=//img[@alt='Organic Cotton Heavyweight Cropped Shell Tank Top']", "xpath:img"],
+        ["xpath=//div[@id='mui-certona-recs-container']/div/div/div/div/div/div[3]/div/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2499364a-ee29-43e8-b7bb-b35f58aa5fd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded-l > svg",
+      "targets": [
+        ["css=.rounded-l > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2322f7e6-35bf-492a-aaf6-14d09dd17d45",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "css=.cb-display-lg-emphasis",
+      "targets": [
+        ["css=.cb-display-lg-emphasis", "css:finder"],
+        ["xpath=//div[@id='empty-bag']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/main/div/div/div", "xpath:position"]
+      ],
+      "value": "Crepe Flutter-Sleeve Mini Dress"
+    }]
+  }, {
+    "id": "c7bdc620-90e1-431a-9653-5683ca85d587",
+    "name": "FilterFunction",
+    "commands": [{
+      "id": "607f6f05-f25b-4927-9c6e-31fbe838ffae",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0bb57a65-d32a-4818-8f15-ec115ecde74a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1134x1025",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73d9bb12-e312-434b-b3c4-45666fa1857e",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fa338e6-31b9-4afc-ad15-3feece396076",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "CashSoft Rib Scarf"
+    }, {
+      "id": "fa79f6b6-96d9-4488-bfe7-8ad30adf0996",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5067eeaf-64a7-431a-91f4-ef3b551082c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1i03dk3",
+      "targets": [
+        ["css=.sitewide-1i03dk3", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'All Filters')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43f51f93-b456-4d65-a53e-d7b3543f634c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1f754zx",
+      "targets": [
+        ["css=.sitewide-1f754zx", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/div/div/div/div/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "520d2f57-d2dd-4627-8f01-2f04bfef57bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1t3tonn:nth-child(2) > .sitewide-1emtpg",
+      "targets": [
+        ["css=.sitewide-1t3tonn:nth-child(2) > .sitewide-1emtpg", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/div/div/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4933d14-2851-48de-92a5-ea1fad97f377",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1a94c0y",
+      "targets": [
+        ["css=.sitewide-1a94c0y", "css:finder"],
+        ["xpath=//div[10]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b7786f3-1397-46c2-80a6-dfb779a851c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1t3tonn:nth-child(1) > .sitewide-1emtpg",
+      "targets": [
+        ["css=.sitewide-1t3tonn:nth-child(1) > .sitewide-1emtpg", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/div/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5efd7da-3bed-4451-9f81-c6b4b84e9f60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-14ppl62:nth-child(4) .fui_radio-button",
+      "targets": [
+        ["css=.sitewide-14ppl62:nth-child(4) .fui_radio-button", "css:finder"],
+        ["xpath=//div[4]/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41732000-40db-4127-9aaa-072fc16b5319",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1s5nqvm",
+      "targets": [
+        ["css=.sitewide-1s5nqvm", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a8b1749-b060-4685-b066-c82af7cc3d97",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.sitewide-fb30fm",
+      "targets": [
+        ["css=.sitewide-fb30fm", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div[3]/section/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": "CashSoft Rib Scarf"
+    }]
+  }, {
+    "id": "bca13ef6-0692-4f28-9bd6-975e26bfe1d7",
+    "name": "Invalid GiftCard",
+    "commands": [{
+      "id": "2e2a1b18-be5d-4e98-be26-f848e457973a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65d39f7a-8260-40c4-a414-f37c904d57d7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x1200",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06faa466-4957-444e-8c1d-1a11ce3e69d8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Un événement en vue?'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea35c288-164b-4798-ade2-09a01e26ea36",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Un événement en vue?'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ecf087a-ae77-4ef3-b9be-451f4defb262",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acea1ec2-9901-49fb-9eb3-6b6ef62d2a55",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " Baby & Toddler VintageSoft Hooded Icon Jacket"
+    }, {
+      "id": "09512a42-cfbd-4f66-8f1c-4e50a5348817",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "fe130134-e777-4148-9132-2e1d03445c0e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdd4b429-b428-42e9-b807-636a25d58917",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > #\\36 76164003",
+      "targets": [
+        ["css=a > #\\36 76164003", "css:finder"],
+        ["xpath=//img[@alt='Baby & Toddler VintageSoft Hooded Icon Jacket']", "xpath:img"],
+        ["xpath=//img[@id='676164003']", "xpath:attributes"],
+        ["xpath=//div[@id='676164003']/a/img", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36ad4a4b-fabf-49fc-9485-3803850b963a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=variant-1-sizeDimension1-2 YRS",
+      "targets": [
+        ["id=variant-1-sizeDimension1-2 YRS", "id"],
+        ["css=#variant-1-sizeDimension1-2\\ YRS", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-2 YRS']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2666a0e8-6411-4815-8b46-edffdfa74e6e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=variant-1-sizeDimension1-2 YRS",
+      "targets": [
+        ["id=variant-1-sizeDimension1-2 YRS", "id"],
+        ["css=#variant-1-sizeDimension1-2\\ YRS", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-2 YRS']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12857914-4e5a-42d0-92e1-a4a6c37e9526",
+      "comment": "",
+      "command": "click",
+      "target": "id=variant-1-sizeDimension1-6-12 M",
+      "targets": [
+        ["id=variant-1-sizeDimension1-6-12 M", "id"],
+        ["name=buy-box-Size", "name"],
+        ["css=#variant-1-sizeDimension1-6-12\\ M", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-6-12 M']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0a4ea2d-970c-42cb-bc82-db7ace49a2aa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=variant-1-sizeDimension1-6-12 M",
+      "targets": [
+        ["id=variant-1-sizeDimension1-6-12 M", "id"],
+        ["name=buy-box-Size", "name"],
+        ["css=#variant-1-sizeDimension1-6-12\\ M", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-6-12 M']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abdd4b2c-8e00-49aa-8e48-191aca7ef39c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=variant-1-sizeDimension1-6-12 M",
+      "targets": [
+        ["id=variant-1-sizeDimension1-6-12 M", "id"],
+        ["name=buy-box-Size", "name"],
+        ["css=#variant-1-sizeDimension1-6-12\\ M", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-6-12 M']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e595dee-f139-4a27-925f-5ffb547cb3b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=AddToBag_add-to-bag__button",
+      "targets": [
+        ["id=AddToBag_add-to-bag__button", "id"],
+        ["css=#AddToBag_add-to-bag__button", "css:finder"],
+        ["xpath=//button[@id='AddToBag_add-to-bag__button']", "xpath:attributes"],
+        ["xpath=//div[@id='AddToBagWithPrice']/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fdd5559-240b-401b-a5ca-2015219bc491",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkoutButton",
+      "targets": [
+        ["id=checkoutButton", "id"],
+        ["css=#checkoutButton", "css:finder"],
+        ["xpath=//button[@id='checkoutButton']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWindow']/div[4]/div[3]/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c43115c5-80f2-4d3c-8f59-829bd507c620",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=promo-code-input",
+      "targets": [
+        ["id=promo-code-input", "id"],
+        ["css=#promo-code-input", "css:finder"],
+        ["xpath=//input[@id='promo-code-input']", "xpath:attributes"],
+        ["xpath=//div[@id='promos']/div/form/div/span/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "821fcbcb-6349-4dd3-8cad-da7909bbd506",
+      "comment": "",
+      "command": "type",
+      "target": "id=promo-code-input",
+      "targets": [
+        ["id=promo-code-input", "id"],
+        ["css=#promo-code-input", "css:finder"],
+        ["xpath=//input[@id='promo-code-input']", "xpath:attributes"],
+        ["xpath=//div[@id='promos']/div/form/div/span/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "SENG438"
+    }, {
+      "id": "43b36b2e-77cd-4efd-9ab6-92c79cced3f8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=promo-code-input",
+      "targets": [
+        ["id=promo-code-input", "id"],
+        ["css=#promo-code-input", "css:finder"],
+        ["xpath=//input[@id='promo-code-input']", "xpath:attributes"],
+        ["xpath=//div[@id='promos']/div/form/div/span/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "60defa5e-5973-4a1d-adcb-eabbc1604c84",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.mt-1",
+      "targets": [
+        ["css=.mt-1", "css:finder"],
+        ["xpath=//div[@id='promos']/div/form/div/span/div", "xpath:idRelative"],
+        ["xpath=//form/div/span/div", "xpath:position"]
+      ],
+      "value": "The code entered is invalid or expired."
+    }]
+  }, {
+    "id": "19999af2-3a43-4cd2-9254-c2b3b81c74a4",
+    "name": "Change Quantity in Cart (works when execution speed is slower)",
+    "commands": [{
+      "id": "fa62fe36-e5ce-4c0e-8d3d-a427f43698de",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d60d2ff-ab54-4e7b-88ee-9d814f4edae0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1091x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0731acf3-ec3d-431f-a40d-dbf32cf5f1f5",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "941822f0-9c1c-4cef-a7af-6dbd28cbb2bb",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "VintageSoft Oversized Logo Hoodie"
+    }, {
+      "id": "becf170d-cd7e-4b2e-81e1-4a72b8663594",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a3ac6021-fac9-4588-9d8d-82774642d7c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > #\\37 45193003",
+      "targets": [
+        ["css=a > #\\37 45193003", "css:finder"],
+        ["xpath=//img[@alt='VintageSoft Oversized Logo Hoodie']", "xpath:img"],
+        ["xpath=//img[@id='745193003']", "xpath:attributes"],
+        ["xpath=//div[@id='745193003']/a/img", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bfad5ab-f16b-4947-821d-acdc59212481",
+      "comment": "",
+      "command": "click",
+      "target": "id=variant-1-sizeDimension1-XS",
+      "targets": [
+        ["id=variant-1-sizeDimension1-XS", "id"],
+        ["name=buy-box-Size", "name"],
+        ["css=#variant-1-sizeDimension1-XS", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-XS']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5eccc850-7c3c-40e2-9b79-416af0af461f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#AddToBag_add-to-bag__button > span",
+      "targets": [
+        ["css=#AddToBag_add-to-bag__button > span", "css:finder"],
+        ["xpath=//button[@id='AddToBag_add-to-bag__button']/span", "xpath:idRelative"],
+        ["xpath=//div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16fac88e-88e0-458f-ad45-be56ecb3fe1b",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkoutButton",
+      "targets": [
+        ["id=checkoutButton", "id"],
+        ["css=#checkoutButton", "css:finder"],
+        ["xpath=//button[@id='checkoutButton']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWindow']/div[4]/div[3]/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86ef634d-d288-4e56-80d5-e535c15fca5c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.shrink-0 > .text-right",
+      "targets": [
+        ["css=.shrink-0 > .text-right", "css:finder"],
+        ["xpath=//div[@id='order-summary']/div[2]/div[2]/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/span/span", "xpath:position"]
+      ],
+      "value": "CA$44.00"
+    }, {
+      "id": "efbe6929-4be1-4596-8c4f-7393b0e576af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded-r > svg",
+      "targets": [
+        ["css=.rounded-r > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "af67e1e1-a9c2-4312-9e60-16aa316d074a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.shrink-0 > .text-right",
+      "targets": [
+        ["css=.shrink-0 > .text-right", "css:finder"],
+        ["xpath=//div[@id='order-summary']/div[2]/div[2]/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/span/span", "xpath:position"]
+      ],
+      "value": "CA$88.00"
+    }, {
+      "id": "0dac03b8-97ec-4aa4-90d6-e1bf5a807c6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded-l > svg",
+      "targets": [
+        ["css=.rounded-l > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0db93563-faf3-429d-adf5-42df6c8b6445",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded-l path",
+      "targets": [
+        ["css=.rounded-l path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dfe843e3-9dbd-4f21-b957-36b0a5cfab6d",
+    "name": "Switching between their brand companies and verifying it is back at gap again",
+    "commands": [{
+      "id": "a55ee794-86b3-429a-bd54-871b5dc1b1fc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83c214f7-b0a5-488e-bccf-15daf0af7a0a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1091x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0bbb65fb-f435-4ee1-b3f6-3b562120ee1d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Old Navy",
+      "targets": [
+        ["linkText=Old Navy", "linkText"],
+        ["css=.brand-logo--ON", "css:finder"],
+        ["xpath=//a[contains(text(),'Old Navy')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://oldnavy.gapcanada.ca/?ssiteID=GAP&_gl=1*1j447mc*_gcl_au*OTIyODc2NTk0LjE3NDMyMDMxODguMjA4NzU3MTk4MC4xNzQzMjAzMTg4LjE3NDMyMDMyNzk.')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Old Navy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e7dd88e-b864-4ea4-97ff-4836a28dcca1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand-logo--BR",
+      "targets": [
+        ["css=.brand-logo--BR", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca/?ssiteID=ON&_gl=1*1j447mc*_gcl_au*OTIyODc2NTk0LjE3NDMyMDMxODguMjA4NzU3MTk4MC4xNzQzMjAzMTg4LjE3NDMyMDMyNzk.')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4406566e-f00e-4e63-bc3c-e08fc3506f15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand-logo--AT",
+      "targets": [
+        ["css=.brand-logo--AT", "css:finder"],
+        ["xpath=//a[contains(text(),'Athleta')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://athleta.gapcanada.ca/?ssiteID=BR&_gl=1*1j447mc*_gcl_au*OTIyODc2NTk0LjE3NDMyMDMxODguMjA4NzU3MTk4MC4xNzQzMjAzMTg4LjE3NDMyMDMyNzk.')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97470137-0a05-4fee-a6cf-0275845eeab6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand-logo--GAP",
+      "targets": [
+        ["css=.brand-logo--GAP", "css:finder"],
+        ["xpath=//a[contains(text(),'Gap')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gapcanada.ca/?ssiteID=AT&_gl=1*1j447mc*_gcl_au*OTIyODc2NTk0LjE3NDMyMDMxODguMjA4NzU3MTk4MC4xNzQzMjAzMTg4LjE3NDMyMDMyNzk.')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbe21d1c-ed82-4c86-b697-fb8d9b5dc6c2",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d92f5bc4-dcc2-48c2-8778-ff69ec5b62ee",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "The Muppets Graphic T-Shirt"
+    }, {
+      "id": "acbc3bad-1fc0-44c5-af69-1b159a1cd196",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5ee6994b-7c63-427d-9a61-188552af0db4",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > #\\37 50248033",
+      "targets": [
+        ["css=a > #\\37 50248033", "css:finder"],
+        ["xpath=//img[@alt='The Muppets Graphic T-Shirt']", "xpath:img"],
+        ["xpath=//img[@id='750248033']", "xpath:attributes"],
+        ["xpath=//div[@id='750248033']/a/img", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c06b659b-e845-430c-97f8-794b36d61c27",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.sitewide-d0up3q",
+      "targets": [
+        ["css=.sitewide-d0up3q", "css:finder"],
+        ["xpath=//div[@id='buy-box']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/h1", "xpath:position"]
+      ],
+      "value": "The Muppets Graphic T-Shirt"
+    }]
+  }],
+  "suites": [{
+    "id": "8f65a6bb-22e3-4003-a72d-c600f174688f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.gapcanada.ca/"],
+  "plugins": []
+}
