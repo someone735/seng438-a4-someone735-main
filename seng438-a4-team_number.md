@@ -18,19 +18,15 @@ For part 2 of the lab, it is concentrated on GUI testing of websites through the
 
 
 # Analysis of 10 Mutants of the Range class 
-line 302 for method expandToInclude
-1. negated conditional → KILLED
-2. removed conditional - replaced equality check with false → KILLED
-3. removed conditional - replaced equality check with true → KILLED
-4. not equal to equal → KILLED
+see provided document for analysis table
 
 # Report all the statistics and the mutation score for each test class
-
-
+see provided document for analysis table
 
 # Analysis drawn on the effectiveness of each of the test classes
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
+Equivalent mutants can really mess with the accuracy of a mutation score. After trying to increase the coverage, there are changes in the code that look different but actually behave the exact same way as the original code. There is no way for tests to catch them since they cause no change in behaviour. This actually gives the false impression that our test suite is not doing a good job but in reality it is, and thus it is a waste of time trying to increase the score caused by it. On top of that, figuring out which mutants are truly equivalent is not easy and takes a lot of effort and time. So, while mutation testing is super useful, equivalent mutants are one of its biggest disadvantages when it comes to scoring accuracy.
 
 # A discussion of what could have been done to improve the mutation score of the test suites
 
