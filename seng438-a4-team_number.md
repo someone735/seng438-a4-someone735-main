@@ -18,8 +18,7 @@ For part 2 of the lab, it is concentrated on GUI testing of websites through the
 
 
 # Analysis of 10 Mutants of the Range class 
-see provided document for analysis table
-
+![image_2025-03-28_232656642](https://github.com/user-attachments/assets/5dc47d81-9c89-4d57-8347-e3bd1a677ee6)
 # Report all the statistics and the mutation score for each test class
 see provided document for analysis table
 
