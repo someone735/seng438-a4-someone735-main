@@ -11,6 +11,10 @@
 | Lana            |   
 
 # Introduction
+This lab assignment is primarily focused on mutation and learning selenium tools, building on the concepts introduced from the lecture slides. To assess mutation coverage in eclipse, our group used the PIT testing tool as part of the mutation testing process. Mutation testing was integrated to enhance the error detection within the original source code. The test cases are specifically designed to identify untested or vulnerable areas.
+
+For part 2 of the lab, it is concentrated on GUI testing of websites through the use of the Selenium IDE extension. This portion of the assignment was to provide hands-on experience with automating test cases with an emphasis on the structure and user interface. By recording and executing these scripts within the Selenium IDE, we gained practice knowledge in automating and executing test cases and testing in general. We also gained insight on how to validate user interactions and ensure the consistency of the website. 
+
 
 
 # Analysis of 10 Mutants of the Range class 
