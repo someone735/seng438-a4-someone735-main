@@ -45,7 +45,13 @@ Base test classes
 ![image_2025-03-28_232802347](https://github.com/user-attachments/assets/73db8f8f-c2f3-469a-b506-1ebbf73de661)
 
 New test classes
-Data Utilities: 90%, We are unable to increase the DataUtilities class any further as most of the mutants related to post increment and decrement of variables that we were unable to test for in addition to equivalence mutants. 
+- Data Utilities: 90%, We are unable to increase the DataUtilities class any further as most of the mutants related to post increment and decrement of variables that we were unable to test for in addition to equivalence mutants. 
+![image_2025-03-28_233932443](https://github.com/user-attachments/assets/cfbf9da1-f67e-47c3-801d-2fef1eed9fdf)
+
+- Range: 75%
+
+![image_2025-03-28_234013345](https://github.com/user-attachments/assets/99d8ef96-7a18-45ea-96c2-c9301a7b803b)
+
 
 # Analysis drawn on the effectiveness of each of the test classes
  The RangeTest class was the most effective in detecting the errors in the Range class as its mutation score was initially low which allowed us to easily determine what required improvements. The DataUtilitiesTest already had a relatively high mutation score and due to most of the mutant test cases created to be untestable, our improvements could only increase the mutation score to its current point.
