@@ -19,9 +19,11 @@ For part 2 of the lab, it is concentrated on GUI testing of websites through the
 
 # Analysis of 10 Mutants of the Range class 
 Base test classes
-- Data Utilities: 88% 
+- Data Utilities: 88%
+  
 ![image_2025-03-28_232656642](https://github.com/user-attachments/assets/5dc47d81-9c89-4d57-8347-e3bd1a677ee6)
 - Range: 65%
+  
 ![image_2025-03-28_232802347](https://github.com/user-attachments/assets/73db8f8f-c2f3-469a-b506-1ebbf73de661)
 
 # Report all the statistics and the mutation score for each test class
