@@ -24,11 +24,13 @@ see provided document for analysis table
 see provided document for analysis table
 
 # Analysis drawn on the effectiveness of each of the test classes
+ 	The RangeTest class was the most effective in detecting the errors in the Range class as its mutation score was initially low which allowed us to easily determine what required improvements. The DataUtilitiesTest already had a relatively high mutation score and due to most of the mutant test cases created to be untestable, our improvements could only increase the mutation score to its current point.
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 Equivalent mutants can really mess with the accuracy of a mutation score. After trying to increase the coverage, there are changes in the code that look different but actually behave the exact same way as the original code. There is no way for tests to catch them since they cause no change in behaviour. This actually gives the false impression that our test suite is not doing a good job but in reality it is, and thus it is a waste of time trying to increase the score caused by it. On top of that, figuring out which mutants are truly equivalent is not easy and takes a lot of effort and time. So, while mutation testing is super useful, equivalent mutants are one of its biggest disadvantages when it comes to scoring accuracy.
 
 # A discussion of what could have been done to improve the mutation score of the test suites
+
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
