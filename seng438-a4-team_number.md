@@ -18,6 +18,11 @@ For part 2 of the lab, it is concentrated on GUI testing of websites through the
 
 
 # Analysis of 10 Mutants of the Range class 
+
+
+
+
+# Report all the statistics and the mutation score for each test class
 Base test classes
 - Data Utilities: 88%
   
@@ -26,8 +31,8 @@ Base test classes
   
 ![image_2025-03-28_232802347](https://github.com/user-attachments/assets/73db8f8f-c2f3-469a-b506-1ebbf73de661)
 
-# Report all the statistics and the mutation score for each test class
-see provided document for analysis table
+New test classes
+Data Utilities: 90%, We are unable to increase the DataUtilities class any further as most of the mutants related to post increment and decrement of variables that we were unable to test for in addition to equivalence mutants. 
 
 # Analysis drawn on the effectiveness of each of the test classes
  The RangeTest class was the most effective in detecting the errors in the Range class as its mutation score was initially low which allowed us to easily determine what required improvements. The DataUtilitiesTest already had a relatively high mutation score and due to most of the mutant test cases created to be untestable, our improvements could only increase the mutation score to its current point.
