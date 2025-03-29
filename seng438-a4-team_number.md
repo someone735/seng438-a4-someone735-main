@@ -18,6 +18,19 @@ For part 2 of the lab, it is concentrated on GUI testing of websites through the
 
 
 # Analysis of 10 Mutants of the Range class 
+| Mutant [include where]        | Killed or Survived | Why |
+| ----------------- | --| --|
+|line 95, Range constructor, 3. incremented (a++) double local variable number 1 |survived |We did not have any test cases to ensure that the lower parameter would be the same after storing into Range’s lower variable |
+| line 105, getLowerBound(), 1. replaced double return with 0.0d | killed | Since our test cases for this method were not hard code, they would respond accordingly to a change in the return value | 
+| line 114, getUpperBound(), 2. replaced return of double value with -(x+1) | killed |Since the value would have changed from what is suppose to be true, our test case would have responded accordingly | 
+| line 144, contains(), 3. changed conditional boundary | killed | Changing the boundary can mean turning a ≥ to a > or vise versa. Since we have a test case targeting the boundary case of the conditional, this mutant was killed |
+| line 123, getLength(), 6. replaced double operation with first member | kill | Since we took into account that these values could be positive, negative, and zero, we created test cases for these scenarios, thus causing it to be dependent on both upper and lower variables. |
+| line 132, getCentralValue(), 19. replaced double division with modulus  | kill | Since the return value of this method had to be the sum of half of the lower bound and half of the upper bound, any change in the arithmetic would be detected. |
+| line 144, contains(), 1. replaced boolean return with false | survived |  Since we did not explicitly test this method, this mutant survived |
+| line 157, intersects(), 3. removed conditional | kill  |Since we had a test case that tested when a range was fully separate from the other, by changing this condition to be false, the output would be incorrect. |
+| line 161, intersects(), 3. changed conditional boundary  | survived |We did not have a test case that ensured that b0 < this.upper returned the correct response |
+| line 188, constrain(), 2. Incremented (a++) double local variable number 1 | survived | We did not have a test cases that ensure that the value inputted was also the value being used |
+
 
 
 
